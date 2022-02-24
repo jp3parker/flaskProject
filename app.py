@@ -9,4 +9,4 @@ def page_example():  # put application's code here
 
 
 if __name__ == '__main__':
-    render_template("Intro.html")
+    app.run()

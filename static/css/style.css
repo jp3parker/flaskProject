@@ -1,0 +1,57 @@
+@font-face {
+    font-family: "MontSerrat";
+    src: url(../Montserrat-Regular.ttf);
+}
+
+body{
+    margin: 0;
+    color: white;
+    background-image: url("https://i.pinimg.com/originals/69/3b/b8/693bb8db1380f20f196c83bccbc16aab.png");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.inner_header{
+    display: block;
+    width: 50%;
+    height: 100%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.decoration_pic_left{
+    width: 25%;
+    height: 100%;
+    float: left;
+}
+
+.logo_container .decoration_pic_right{
+    width: 25%;
+    height: 100%;
+    float: right;
+}
+
+.logo_container .decoration_pic_left{
+    margin: 0 auto;
+    display: table;
+    height: 10%;
+    text-align: center;
+    font-family: "MontSerrat", sans-serif;
+}
+
+.logo_container h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+.inner{
+    width: 1000px;
+    height: 100%;
+    background-color: black;
+    margin: 0 auto;
+}
+
+hr.under_logo{
+    border-top: 1px dashed white;
+    width: 50%
+}
